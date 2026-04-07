@@ -1,6 +1,7 @@
 # Description: 
-In this project, 8 LEDs are connected to the development board as in the 
-previous project, the LEDs count up in binary with a 500-ms delay between each count.
+In this project, 8 LEDs are connected to the development board  the LEDs count up in binary with a 500-ms delay between each count.
+
+---
 ![image](.attachments/79211c4a95821fbab1554f74b6a4b08308f7eb09.png) 
 
 # Code
