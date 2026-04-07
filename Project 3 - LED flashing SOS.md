@@ -1,55 +1,35 @@
 **Description**: In this project, an external LED is connected to the development board as in 
 the previous project. The LED blinks in the form of SOS signal (ON ON ON OFF OFF OFF ON  ON ON, or in Morse terms: …---…) with a small delay between each output.
 
-
-
-
+---
 
 ```cpp
-//----------------------------------------------------------------------
-
+/*----------------------------------------------------------------------
 // LED FLASHING SOS
-
 // ================
-
 //
-
 // This program blinks the LED connected to port 5 of the board
-
 //
-
 // Author: Muhammed Alessa
-
 // File : SOS
-
 // Date : 4, 2026
-
-//----------------------------------------------------------------------
-
+----------------------------------------------------------------------*/
 #include <Arduino.h>
-
 #define ON HIGH // Define ON
-
 #define OFF LOW // Define OFF
-
-int LED = 5; // LED at port 2
+#define LED  5 // LED at port 2
 
 void setup()
-
 {
-
  pinMode(LED, OUTPUT); // Configure LED as output
-
 }
 
 void loop()
-
 {
 
  for(int i=0; i < 3; i++) // Send S
 
  {
-
  digitalWrite(LED, ON);
 
  delay(200);
