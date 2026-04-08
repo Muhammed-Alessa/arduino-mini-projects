@@ -1,5 +1,5 @@
 # **Description**:
-In this project, 8 LEDs are connected to the development board. The LEDs "chase" each other as shown in Figure 3.14, with a 500-ms delay between each output.
+In this project, 8 LEDs are connected to the development board. The LEDs "chase" each, with a 500-ms delay between each output.
 
 ![image](.attachments/84c42f1629afb666f7ac49082347085fde14e334.png) 
 
