@@ -1,7 +1,10 @@
-**Description**: In this project, an external LED is connected to the development board. The LED blinks in the form of an SOS signal (ON ON ON OFF OFF OFF ON  ON ON, or in Morse terms: …---…) with a small delay between each output.
+# **Description**:
+In this project, an external LED is connected to the development board. The LED blinks in the form of an SOS signal (ON ON ON OFF OFF OFF ON  ON ON, or in Morse terms: …---…) with a small delay between each output.
 
 ---
+![image](.attachments/25707760cf33cdc020c95f060c9636680ed06c79.png) 
 
+# Code
 ```cpp
 /*----------------------------------------------------------------------
 // LED FLASHING SOS
