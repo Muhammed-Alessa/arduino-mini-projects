@@ -26,9 +26,9 @@ the LED flashing rate. This project aims to show how external interrupts can be 
 //----------------------------------------------------------------------
 #define ON HIGH // Define ON
 #define OFF LOW // Define OFF
-int LED = 5; // LED at port5
-int FAST = 2; // FAST button at port 2
-int SLOW = 3; // SLOW button at port 3
+uint8_t LED = 5; // LED at port5
+uint8_t FAST = 2; // FAST button at port 2
+uint8_t SLOW = 3; // SLOW button at port 3
 int dely = 1000; // Default delay (1000 ms)
 void setup() 
 {
